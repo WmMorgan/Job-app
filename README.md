@@ -29,9 +29,11 @@ cd Job-app
 mkdir pgadmin
 docker-compose build
 docker-compose up -d
-composer install (docker konteynerida ishga tushirish kerak tashqarida php versiya 8.x bo'lsa xatolik berishi m.n)
-php init
-php yii migrate (agar ishlamasa common/config/main-local.php da baza ulanganini tekshiring)
+- docker konteynerida ishga tushirish kerak tashqarida php versiya 8.x bo'lsa yoki consolizda php driveri mavjus bo'lmasa xatolik berishi m.n
+    composer install
+    init
+    - file (common/config/main-local-pgsql.php rename to main-local.php) 
+    yii migrate (agar ishlamasa common/config/main-local.php da baza ulanganini tekshiring)
 
 
    - link app: localhost:20080
