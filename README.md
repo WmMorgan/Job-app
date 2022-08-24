@@ -11,9 +11,12 @@ Install
 
 ```
 git clone https://github.com/WmMorgan/Job-app.git
-cd job-app
+cd Job-app
+composer install
 php init
 php yii/migrate
+    app-path: /frontend
+    api-path: /api  
     login: morgan
     parol: dunyoseni...
 ```
@@ -21,9 +24,12 @@ Install via docker
 -------------------
 ```
 git clone https://github.com/WmMorgan/Job-app.git
-cd job-app
+cd Job-app
 docker-compose build
 docker-compose up -d
+composer install (docker konteynerida ishga tushirish kerak tashqarida php versiya 8.x bo'lsa xatolik berishi m.n)
+php init
+php yii migrate
 
    link app: localhost:20080
    link API: localhost:6060/v1/stataments
