@@ -74,7 +74,7 @@
     <?= $form->field($model, 'phone_number', ['options' => ['class' => 'col-6']])->hint('raqam formati: +998915377732') ?>
 </div>
     <?= $form->field($model, 'age', ['options' => ['class' => 'col-6']])->dropDownList(array_combine($age, $age), ['prompt' => 'yoshi']) ?>
-
+<br/>
 <div class="form-group">
     <div class="col-lg-offset-1 col-lg-11">
         <?= Html::submitButton('Topshirish', ['class' => 'btn btn-primary']) ?>
