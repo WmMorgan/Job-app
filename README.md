@@ -14,6 +14,8 @@ git clone https://github.com/WmMorgan/Job-app.git
 cd job-app
 php init
 php yii/migrate
+    login: morgan
+    parol: dunyoseni...
 ```
 Install via docker
 -------------------
@@ -24,8 +26,6 @@ docker-compose build
 docker-compose up -d
 
    link app: localhost:20080
-        login: morgan
-        parol: dunyoseni...
    link API: localhost:6060/v1/stataments
    link postgres pgadmin: localhost:5050 
         login: admin@app.net

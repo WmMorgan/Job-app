@@ -41752,3 +41752,51 @@ $_SERVER = [
     'argv' => []
     'argc' => 0
 ]
+2022-08-24 10:43:34 [172.19.0.1][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.19.0.1
+2022-08-24 10:43:34 [172.19.0.1][1][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-api' => 'b3deda57d1bb56c2d565f32acb98fe362c2be769849b76cc62a7dc9b21491019a:2:{i:0;s:9:\"_csrf-api\";i:1;s:32:\"EnWBy5oLyVxd2jA2_kXdwiFn0otlVl6T\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '8432734a-d549-4ace-bf13-4451029bbc1d'
+    'HTTP_HOST' => 'localhost:6060'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf-api=b3deda57d1bb56c2d565f32acb98fe362c2be769849b76cc62a7dc9b21491019a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_csrf-api%22%3Bi%3A1%3Bs%3A32%3A%22EnWBy5oLyVxd2jA2_kXdwiFn0otlVl6T%22%3B%7D'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.54 (Debian) Server at localhost Port 6060</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.54 (Debian)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '172.19.0.5'
+    'SERVER_PORT' => '6060'
+    'REMOTE_ADDR' => '172.19.0.1'
+    'DOCUMENT_ROOT' => '/app/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/app/api/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/app/api/web/index.php'
+    'REMOTE_PORT' => '61520'
+    'REDIRECT_URL' => '/v1/stataments'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/v1/stataments'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1661337814.3385
+    'REQUEST_TIME' => 1661337814
+    'argv' => []
+    'argc' => 0
+]
