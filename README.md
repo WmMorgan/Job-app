@@ -32,6 +32,9 @@ docker-compose up -d
         parol: admin
 api-example
     https://www.getpostman.com/collections/ac6f046d32a86c2226e5
+
+!Eslatma: dockerda ishga tushirganda port 80 bo'lishi,
+kerak agar os windows bo'lsa docker-compose.yml va app papkalardagi Dockerfile.larda portni 80dan ->8080 ga o'zgartirish kerak.
 ```
 
 
